@@ -26,3 +26,9 @@ addItem(item){
 },
 ```
 - Components can then import and call these actions
+
+####Lesson 4
+- Store manages state of application
+- PrivateMethods to manipulate data called by exposed store methods
+- `dispatcherIndex` method maps actions to store methods (switch)
+- Has constant `EVENT_CHANGE` that store can emit (after dispatcherIndex switch) and add/remove listeners
