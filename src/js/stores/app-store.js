@@ -17,7 +17,7 @@ for (let i = 1; i < 9; i++) {
   });
 }
 
-let cartItems = [];
+let _cartItems = [];
 
 // methods
 
@@ -74,7 +74,7 @@ const AppStore = Object.assign(EventEmitter.prototype, {
 
   getCatalog(){
     return _catalog.map(item => {
-      return Object.assign({} item, _cartItems.find(cItem => cItem.id === item.id));
+      return Object.assign({}, item, _cartItems.find(cItem => cItem.id === item.id));
     });
   },
 
@@ -102,7 +102,7 @@ const AppStore = Object.assign(EventEmitter.prototype, {
     }
 
     AppStore.emitChange();
-  });
+  })
 });
 
 export default AppStore;

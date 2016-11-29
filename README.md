@@ -32,3 +32,7 @@ addItem(item){
 - PrivateMethods to manipulate data called by exposed store methods
 - `dispatcherIndex` method maps actions to store methods (switch)
 - Has constant `EVENT_CHANGE` that store can emit (after dispatcherIndex switch) and add/remove listeners
+
+####Lesson 5 (Catalog/Cart app)
+
+####Lesson 6
