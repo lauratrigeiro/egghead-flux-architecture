@@ -36,3 +36,5 @@ addItem(item){
 ####Lesson 5 (Catalog/Cart app)
 
 ####Lesson 6
+- Creating higher order component allows inner components (ex. Cart) to become stateless
+- Higher order functions let other components now be aware of state

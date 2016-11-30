@@ -9,7 +9,11 @@ export default (props) => {
       <h4>{ props.item.title }</h4>
       <img src="http://placehold.it/250x250" width="100%" className="img-responsive"/>
       <p>{ props.item.summary }</p>
-      <p>${ props.item.cost }</p>
+      <p>${ props.item.cost } <span
+        className="text-success">
+        { props.item.qty && `(${props.item.qty} in cart)`}
+        </span>
+      </p>
       <CartButton
         onClickHandler={
           AppActions.addItem.bind(null, props.item)
