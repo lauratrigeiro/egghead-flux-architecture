@@ -38,3 +38,6 @@ addItem(item){
 ####Lesson 6
 - Creating higher order component allows inner components (ex. Cart) to become stateless
 - Higher order functions let other components now be aware of state
+
+####Lesson 8
+Newer version of reacter-router requires a [history](https://github.com/ReactTraining/react-router/blob/master/docs/guides/Histories.md). Figured out thanks to [this](http://stackoverflow.com/questions/40872481/react-router-uncaught-typeerror-cannot-read-property-getcurrentlocation-of).
