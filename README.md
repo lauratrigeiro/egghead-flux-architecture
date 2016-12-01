@@ -45,3 +45,6 @@ Newer version of reacter-router requires a [history](https://github.com/ReactTra
 ####Lesson 9
 - react-router has <Link to="">. can do < style={obj}>
 - Interesting: when you refresh the page, you lose the store
+
+####Lesson 10
+- Take logic out of store and put into Api that the "dumb" store can call
