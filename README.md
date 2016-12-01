@@ -41,3 +41,7 @@ addItem(item){
 
 ####Lesson 8
 Newer version of reacter-router requires a [history](https://github.com/ReactTraining/react-router/blob/master/docs/guides/Histories.md). Figured out thanks to [this](http://stackoverflow.com/questions/40872481/react-router-uncaught-typeerror-cannot-read-property-getcurrentlocation-of).
+
+####Lesson 9
+- react-router has <Link to="">. can do < style={obj}>
+- Interesting: when you refresh the page, you lose the store
